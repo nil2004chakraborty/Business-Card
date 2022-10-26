@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Business Card</string>
+    <string name="business_card_name">Nilakshi Chakraborty</string>
+    <string name="title">Native Android Developer in Kotlin with basic ideas</string>
+    <string name="phone_num">+91 9830823509</string>
+    <string name="mail">chakraborty.nilakshi2004@gmail.com</string>
+    <string name="chat">Android Developer</string>
+</resources>
