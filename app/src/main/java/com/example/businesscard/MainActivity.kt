@@ -43,7 +43,7 @@ class MainActivity : ComponentActivity() {
 fun TopSection(){
     Column{
         Image(
-            painter = painterResource(id = R.drawable.jetpack_compose_icon_rgb),
+            painter = painterResource(id = R.drawable.android_logo),
             contentDescription = null,
             modifier = Modifier
                 .wrapContentSize()
@@ -65,7 +65,8 @@ fun TopSection(){
             text= stringResource(id = R.string.title),
             fontSize = 16.sp,
             color = Color(0xFF3ddc84),
-            textAlign = TextAlign.Center
+            textAlign = TextAlign.Center,
+            modifier = Modifier.padding(start = 90.dp)
         )
         Spacer(modifier = Modifier.height(160.dp))
 
@@ -84,7 +85,7 @@ fun BottomSection(){
                     .height(35.dp)
                     .width(25.dp)
             )
-            
+
             Spacer(modifier = Modifier.width(45.dp))
 
             Text(
@@ -115,7 +116,7 @@ fun BottomSection(){
             )
         }
     }
-    
+
     Spacer(modifier = Modifier.height(12.dp))
     Column {
         Row {
